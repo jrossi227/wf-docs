@@ -10,7 +10,7 @@ summary: This is an introduction to the Wavefront architecture.
 
 ## Wavefront Time Series Query Language
 
-One of Wavefront's differentiators is the [Time Series Query Language Quick Reference](time_series_language_reference.html), which allows you to harness the power of the platform to design your own key performance indicators from all of your metric data. The ts() language has support for sophisticated statistical functions and can be used to construct simple and complex queries across multiple metrics/sources leveraging any combination of ts() functions (which include arithmetic operators, aggregate functions, time functions, filtering operators, conditional functions, etc.).
+One of Wavefront's differentiators is the [Wavefront Time Series Query Language](time_series_language_reference.html), which allows you to harness the power of the platform to design your own key performance indicators from all of your metric data. The ts() language has support for sophisticated statistical functions and can be used to construct simple and complex queries across multiple metrics/sources leveraging any combination of ts() functions (which include arithmetic operators, aggregate functions, time functions, filtering operators, conditional functions, etc.).
 
 ## Wavefront Application Components
 
