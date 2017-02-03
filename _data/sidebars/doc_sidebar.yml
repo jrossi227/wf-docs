@@ -1,0 +1,98 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Wavefront
+  version:
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+
+    - title: About Wavefront Documentation
+      url: /index.html
+      output: web
+      type: homepage
+
+    - title: Introduction to Wavefront
+      url: /introduction.html
+      output: web
+      type: homepage
+
+  - title: Release Notes
+    output: web
+    folderitems:
+
+    - title: 5.0 Release notes
+      url: /50_release_notes.html
+      output: web
+
+  - title: Language
+    output: web
+    folderitems:
+
+    - title: Time Series Query Language Quick Reference
+      url: /time_series_language_reference.html
+      output: web
+
+  - title: Dashboards
+    output: web
+    folderitems:
+
+    - title: Introductory Dashboards
+      url: /intro_dashboards.html
+      output: web
+
+    - title: Managing Dashboards
+      url: /managing_dashboards.html
+      output: web
+
+    - title: Dashboards Variables
+      url: /dashboard_variables.html
+      output: web
+
+  - title: Integrations
+    output: web
+    folderitems:
+
+    - title: AWS Metrics Integration
+      url: /aws_metrics_integration.html
+      output: web
+
+    - title: Sending Log Data Metrics To Wavefront
+      url: /sending_log_data.html
+      output: web
+
+    - title: Wavefront CLI
+      url: /wavefront_cli.html
+      output: web
+
+  - title: Tags
+    output: web
+    folderitems:
+
+    - title: Tag overview
+      url: /tag_overview.html
+      output: web
+
+      subfolders:
+      - title: Tag pages
+        output: web
+        subfolderitems:
+
+        - title: Getting started pages
+          url: /tag_getting_started.html
+          output: web
+
+        - title: Dashboards pages
+          url: /tag_dashboards.html
+          output: web
+
+        - title: Integrations pages
+          url: /tag_integrations.html
+          output: web
+
+        - title: Language pages
+          url: /tag_language.html
+          output: web

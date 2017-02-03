@@ -1,0 +1,12 @@
+allowed-tags:
+  - getting_started
+  - news
+  - dashboards
+  - language
+  - proxies
+  - permissions
+  - events
+  - integrations
+  - api
+  - charts
+  - release_notes
