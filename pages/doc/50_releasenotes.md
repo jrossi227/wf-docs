@@ -31,11 +31,11 @@ Tags allow you to flexibly manage and organize your Wavefront content. With this
 ### Search
 
 -   Faceted searching - The Dashboards, Alerts, Events, Maintenance Windows, Agents, Cloud Integrations, Web Hooks, and External Links pages now include a faceted filter bar on the left. You can search by selecting facets and typing in Search fields. In addition to the Search field at the top of each page, many facets have their own Search fields to limit the displayed facets. <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Most pages support the standard facets Saved Searches, Tag Paths, Tags, Last Updated By. In addition there are type-specific facets. For example, Events and Maintenance Windows have the State facet.</span>
--   Saved searches - The faceted filter bar includes a set of commonly used saved searches. In addition, you can also save your own searches. Once you start searching, the following icons [<img src="/images/searchicons.png" alt="searchicons.png" class="image-20 jive-image" width="117" height="27" />](/images/searchicons.png) display at the top right, allowing you to share a link to, save, and clear the search. Your saved searches appear below the commonly used searches, and have a drop-down menu for renaming, duplicating, and deleting the search.
+-   Saved searches - The faceted filter bar includes a set of commonly used saved searches. In addition, you can also save your own searches. Once you start searching, the following icons [<img src="images/searchicons.png" alt="searchicons.png" class="image-20 jive-image" width="117" height="27" />](images/searchicons.png) display at the top right, allowing you to share a link to, save, and clear the search. Your saved searches appear below the commonly used searches, and have a drop-down menu for renaming, duplicating, and deleting the search.
 
 The following Alert Browser filter demonstrates filtering alerts by the tag path **Microservice.App4**. This filters the view to show all alerts with the tag path **MicroService.App4** and all its children (for example, **MicroService.App4.Auth**). Of the matching alerts, 1 is firing.
 
-[<img src="/images/MicroService.App4-Firing.png" alt="MicroService.App4-Firing.png" class="image-15 jive-image" width="119" height="549" />](/images/MicroService.App4-Firing.png)
+[<img src="images/MicroService.App4-Firing.png" alt="MicroService.App4-Firing.png" class="image-15 jive-image" width="119" height="549" />](images/MicroService.App4-Firing.png)
 
 ### Metrics
 
@@ -45,19 +45,19 @@ Search fields now supports multi-word searches. For example, if you type **cpu u
 
 This release introduces several new patterns for performing actions on Wavefront entities:
 
--   Tagging - After selecting entities, click the tag buttons [<img src="/images/tag_toggle.png" alt="tag_toggle.png" class="image-10 jive-image" width="118" height="30" />](/images/tag_toggle.png) to create, add, and remove tags.
--   Actions - Perform actions (clone, delete, edit, rename, etc.) on individual entities by clicking the menu icon:  [<img src="/images/action_menu.png" alt="action_menu.png" class="image-7 jive-image" width="33" height="24" />](/images/action_menu.png)  and selecting an action.
--   Trash - View deleted entities by clicking the trash toggle: Off - [<img src="/images/trash_off.png" alt="trash_off.png" class="image-8 jive-image" width="76" height="30" />](/images/trash_off.png)  <span style="font-size: 12pt;">On - [<img src="/images/trash_on.png" alt="trash_on.png" class="image-9 jive-image" width="76" height="30" />](/images/trash_on.png)</span>
+-   Tagging - After selecting entities, click the tag buttons [<img src="images/tag_toggle.png" alt="tag_toggle.png" class="image-10 jive-image" width="118" height="30" />](images/tag_toggle.png) to create, add, and remove tags.
+-   Actions - Perform actions (clone, delete, edit, rename, etc.) on individual entities by clicking the menu icon:  [<img src="images/action_menu.png" alt="action_menu.png" class="image-7 jive-image" width="33" height="24" />](images/action_menu.png)  and selecting an action.
+-   Trash - View deleted entities by clicking the trash toggle: Off - [<img src="images/trash_off.png" alt="trash_off.png" class="image-8 jive-image" width="76" height="30" />](images/trash_off.png)  <span style="font-size: 12pt;">On - [<img src="images/trash_on.png" alt="trash_on.png" class="image-9 jive-image" width="76" height="30" />](images/trash_on.png)</span>
 
 ## Dashboards
 
 -   Supports sorting along many axes including number of charts and favorites, last updated, updated by, and views:
 
-[<img src="/images/dbfilter.png" alt="dbfilter.png" class="image-19 jive-image" width="139" height="152" />](/images/dbfilter.png)
+[<img src="images/dbfilter.png" alt="dbfilter.png" class="image-19 jive-image" width="139" height="152" />](images/dbfilter.png)
 
 -   Supports defining a global event() expression in dashboard preferences and corresponding display options:
 
-[<img src="/images/dbevents.png" alt="dbevents.png" class="image-18 jive-image" width="198" height="138" />](/images/dbevents.png)
+[<img src="images/dbevents.png" alt="dbevents.png" class="image-18 jive-image" width="198" height="138" />](images/dbevents.png)
 
 -   The Landing page has been removed. The default landing page is now the **Intro: Home** dashboard. If the Default Dashboard property in user or customer preferences is empty, the landing page is **All Dashboards**.
 
@@ -99,7 +99,7 @@ External links employ a template language that allows you to pass information ab
 
 Once configured, to navigate to external link, right-click a time series and select **External Links &gt; &lt;linkName&gt;**. For example, to navigate to an ELK instance you would select
 
-[<img src="/images/elk_external_link.png" alt="elk_external_link.png" class="image-17 jive-image" width="386" height="106" />](/images/elk_external_link.png)
+[<img src="images/elk_external_link.png" alt="elk_external_link.png" class="image-17 jive-image" width="386" height="106" />](images/elk_external_link.png)
 
 For more information, see <a href="https://community.wavefront.com/docs/DOC-1242" class="jive-link-wiki-small">External Links</a>.
 
@@ -145,7 +145,7 @@ While Wavefront recommends that you move to the v2 API, the original API (`<Wave
 
 The API is now fully documented. When you open the <a href="https://community.wavefront.com/docs/DOC-1095" class="jive-link-wiki-small">API documentation</a>, the Swagger specified API appears as:
 
-[<img src="/images/Wavefront+API+v2.png" alt="Wavefront+API+v2.png" class="image-16 jive-image" width="1305" height="900" />](/images/Wavefront+API+Bv2.png)
+[<img src="images/Wavefront+API+v2.png" alt="Wavefront+API+v2.png" class="image-16 jive-image" width="1305" height="900" />](images/Wavefront+API+Bv2.png)
 
 ### API Categories
 
