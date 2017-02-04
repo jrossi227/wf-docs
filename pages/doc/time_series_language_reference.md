@@ -1,10 +1,10 @@
 ---
-title: Time Series Query Language Quick Reference
+title: Time Series Query Language Reference
 keywords: query language
-tags: [language]
+tags: [query_language]
 sidebar: doc_sidebar
 permalink: time_series_language_reference.html
-summary: This is a reference for the Wavefront time series query language.
+summary: This is a quick reference for the Wavefront time series query language.
 ---
 
 ## Query Elements

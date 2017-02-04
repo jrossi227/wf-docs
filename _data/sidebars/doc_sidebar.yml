@@ -32,7 +32,7 @@ entries:
     output: web
     folderitems:
 
-    - title: Time Series Query Language Quick Reference
+    - title: Time Series Query Language Reference
       url: /time_series_language_reference.html
       output: web
 
@@ -93,6 +93,6 @@ entries:
           url: /tag_integrations.html
           output: web
 
-        - title: Language pages
-          url: /tag_language.html
+        - title: Query language pages
+          url: /tag_query_language.html
           output: web

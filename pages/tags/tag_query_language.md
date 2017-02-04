@@ -1,8 +1,8 @@
 ---
-title: "Language pages"
-tagName: language
+title: "Query language pages"
+tagName: query_language
 search: exclude
-permalink: tag_language.html
+permalink: tag_query_language.html
 sidebar: doc_sidebar
 folder: tags
 ---
