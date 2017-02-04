@@ -28,7 +28,7 @@ entries:
       url: /50_release_notes.html
       output: web
 
-  - title: Language
+  - title: Query Language
     output: web
     folderitems:
 
