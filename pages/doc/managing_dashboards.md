@@ -205,6 +205,6 @@ You can customize the placement of charts on a dashboard when a dashboard is in 
 
 ## Creating and Managing Dashboard Variables
 
-You can apply dashboard variables to an existing dashboard. For information on dashboard variables, see [Dashboard Variables](images/dashboard_variables.html).
+You can apply dashboard variables to an existing dashboard. For information on dashboard variables, see [Dashboard Variables](dashboard_variables.html).
 
 {% include links.html %}
