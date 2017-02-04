@@ -17,27 +17,27 @@ A dashboard variable is a placeholder that allows you to dynamically change the 
 
 To access the set of dashboard variables associated with a dashboard, click the 'x²' icon at the far right of the task bar.
 
-![dashboard_actions.png](/images/dashboard_actions.png)
+![dashboard_actions.png](images/dashboard_actions.png)
 
 The following screen capture shows a simple variable, which consists of a label (Zones), name (**az**), and value (**tag=az-3 or source=app-3**). The label should ideally provide some indication about what values the variable represents. You view the variable name by hovering over the label.
 
-![Image 2.PNG](/images/Image+2.PNG)
+![Image 2.PNG](images/Image+2.PNG)
 
 ## Creating a Dashboard Variable
 
 1.  Put your dashboard into edit mode by clicking the pencil icon at the far right of the task bar.
 
-    ![dashboard\_actions.png](/images/dashboard_actions.png)
+    ![dashboard\_actions.png](images/dashboard_actions.png)
 
     -   If there are no dashboard variables already defined, click **Create**.
 
-        ![Image 3.PNG](/images/Image+3.PNG)
+        ![Image 3.PNG](images/Image+3.PNG)
 
     -   If there is at least one variable associated with the dashboard, click '+' to the right of the existing variable field.
 
 2.  Click the <span class="fa-edit fa"/> icon to the right of the variable. The Query Parameters dialog displays:
 
-    ![simple var with non-editor hide.PNG](/images/simple+var+with+non-editor+hide.PNG)
+    ![simple var with non-editor hide.PNG](images/simple+var+with+non-editor+hide.PNG)
 
 3.  Specify the variable name, label, and select the Variable Type. Fill in remaining fields depending on the variable type: [simple](#simple), [list](#list), and [dynamic](#dynamic).
 4.  Click **Hide from non-editors** to make your dashboard variable non-viewable/non-changeable by all users when the dashboard is not in edit mode. The dashboard variable can still be used in ts() queries and becomes visible when you put the dashboard into edit mode.
@@ -56,7 +56,7 @@ Enter a variable name (case sensitive) and label. We suggest keeping the variabl
 
 To create a simple dashboard variable that represents a metric name, the text is set to the metric name "requests.latency".
 
-![Image 7.PNG](/images/Image+7.PNG)
+![Image 7.PNG](images/Image+7.PNG)
 
 Click **Save** to save the dashboard and the dashboard variable. For this example, you can use variable in a ts() query as follows: ts(${Variable1}). By default this query returns requests latency data.
 
@@ -74,11 +74,11 @@ A **list dashboard variable** maps a variable label to a list of labels and valu
 
 To create a list dashboard variable, select **Variable Type &gt; List**:
 
-![list var with non-editor hide.PNG](/images/list+var+with+non-editor+hide.PNG)
+![list var with non-editor hide.PNG](images/list+var+with+non-editor+hide.PNG)
 
 Label and value fields display for you to enter in the dashboard variable parameters. Enter the Label you'd like to be displayed in the drop-down list of options for the dashboard variable to the left, and enter the text you'd like replace the variable name with to the right. You can add, remove, or clone fields by using the icons to the right of the source fields.
 
-![list var with non-editor hide and parameters.PNG](/images/list+var+with+non-editor+hide+and+parameters.PNG)
+![list var with non-editor hide and parameters.PNG](images/list+var+with+non-editor+hide+and+parameters.PNG)
 
 Choose the label and value to set as the default. Click **Accept**.
 
@@ -86,7 +86,7 @@ Click **Save** to save your dashboard and the dashboard variable.
 
 In the dashboard, selecting **Production** replaces **${var1}** in a ts() query with **tag=az-1** and selecting **Development** replaces **${var1}** in a ts() query with **tag=az-2**.
 
-![Image 14.PNG](/images/Image+14.PNG)
+![Image 14.PNG](images/Image+14.PNG)
 
 <span id="dynamic"></span>
 
@@ -96,7 +96,7 @@ A **dynamic dashboard variable** defines a variable whose set of values are dyna
 
 To create a dynamic variable, select **Variable Type &gt; Dynamic**. A Field drop-down list and Query field displays.
 
-![dynamic with field options.PNG](/images/dynamic+with+field+options.PNG)
+![dynamic with field options.PNG](images/dynamic+with+field+options.PNG)
 
 ### Field Options
 
@@ -108,13 +108,13 @@ To create a dynamic variable, select **Variable Type &gt; Dynamic**. A Field dro
 
 Suppose you want to populate a variable with list of metrics that start with **requests** and **cpu**. Choose **Field &gt; Metric** and enter **ts("requests\*" or "cpu\*")** in the Query field:
 
-![Image 20.PNG](/images/Image+20.PNG)
+![Image 20.PNG](images/Image+20.PNG)
 
 When you press enter, a Current Values section displays and displays every metric name that matches the query. As with list variables, you can select a specific value as the default. Click **Accept**.
 
 Click **Save** to save your dashboard and the dashboard variable.
 
-![Image 21.PNG](/images/Image+21.PNG)
+![Image 21.PNG](images/Image+21.PNG)
 
 After you save the dynamic dashboard variable, you can enter that variable name into a ts() query. For example, **ts(${var2})**. Selecting "cpu.usage.percentage" from the list of options replaces **ts(${var2})** with **ts("cpu.usage.percentage")**.
 

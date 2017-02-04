@@ -47,7 +47,7 @@ To open the dashboard preferences dialog, click the wrench icon <span class="fa-
 
 The process for editing an existing dashboard can be started from the All Dashboards page or directly from the existing dashboard page:
 
--   From the All Dashboards page, locate the dashboard and select ![/images/action_menu.png](images/action_menu.png) **&gt; Edit**.
+-   From the All Dashboards page, locate the dashboard and select ![action_menu.png](images/action_menu.png) **&gt; Edit**.
 -   From a dashboard, click the pencil icon <span class="fa-pencil fa"/> on the right side below the task bar, and select **Edit**.
 
 When editing a dashboard, you can make changes to the dashboard description, name, dashboard variables, sections, and charts.
@@ -74,7 +74,7 @@ By default, every dashboard has at least one section. Charts are saved under the
 
  
 
-[<img src="images/Section+Editing.PNG" alt="Section Editing.PNG" class="image-12 jive-image" width="1600" height="61" />](Section+Editing.PNG)
+[<img src="images/Section+Editing.PNG" alt="Section Editing.PNG" class="image-12 jive-image" width="1600" height="61" />](images/Section+Editing.PNG)
 
  
 
@@ -90,7 +90,7 @@ A section Table of Contents displays directly below the Time bar at the top of t
 
  
 
-[<img src="images/Section+Table+of+Contents.PNG" alt="Section Table of Contents.PNG" class="image-13 jive-image" width="698" height="102" />](Section+Table+of+Contents.PNG)
+[<img src="images/Section+Table+of+Contents.PNG" alt="Section Table of Contents.PNG" class="image-13 jive-image" width="698" height="102" />](images/Section+Table+of+Contents.PNG)
 
  
 
@@ -103,7 +103,7 @@ You can quickly jump to a desired section by clicking it in the Table of Content
 
 When your dashboard is in edit mode, you can resize individual chart rows on your dashboard by clicking the resize icons to the left side of each chart row:
 
-![/images/Resize.PNG](Resize.PNG)
+![Resize.PNG](images/Resize.PNG)
 
 Resizing a chart row affects every chart located in that chart row.
 
@@ -118,7 +118,7 @@ All of the changes described above can also be done through the JSON editor. In 
 
  
 
-When editing a dashboard, you may make several changes at a time. If you wish to remove a single change, but not the changes made before it, then you can click the revert icon ![/images/revert.png](revert.png)near the **Save** button on the task bar. The revert icon removes changes starting with the most recent and working its way backwards. You can only remove changes this way in the current edit mode session.
+When editing a dashboard, you may make several changes at a time. If you wish to remove a single change, but not the changes made before it, then you can click the revert icon ![revert.png](images/revert.png)near the **Save** button on the task bar. The revert icon removes changes starting with the most recent and working its way backwards. You can only remove changes this way in the current edit mode session.
 
  
 
@@ -134,10 +134,10 @@ In addition to the abilities listed above, Dashboard Management permission also 
 
 Only users with Dashboard Management permission have the ability to delete a dashboard from Wavefront. This can be done from the All Dashboards page or the specific dashboard page you'd like to remove.
 
--   From the All Dashboards page, locate the dashboard that you'd like to remove from the dashboards list and select  ![/images/action_menu.png](action_menu.png) **&gt; Delete**.
+-   From the All Dashboards page, locate the dashboard that you'd like to remove from the dashboards list and select  ![action_menu.png](images/action_menu.png) **&gt; Delete**.
 -   If you are viewing a dashboard and want to delete it, click the pencil icon <span class="fa-pencil fa"/> on the right side below the task bar, and select **Delete**.
 
-You are prompted with a secondary message to confirm you want to delete the dashboard. Once confirmed, the dashboard is moved to the Trash bin.  You can view the Trash bin by clicking the trash toggle: Off -![/images/trash_off.png](trash_off.png)  On - ![/images/trash_on.png](trash_on.png).
+You are prompted with a secondary message to confirm you want to delete the dashboard. Once confirmed, the dashboard is moved to the Trash bin.  You can view the Trash bin by clicking the trash toggle: Off -![trash_off.png](images/trash_off.png)  On - ![trash_on.png](images/trash_on.png).
 
 If you delete a dashboard by mistake, it can be recovered within 30 days of deletion from the Trash bin. After 30 days, the deleted dashboard is removed from the Trash bin and is no longer be recoverable. If you'd like the deleted dashboard to be permanently removed from the system prior to the 30 day deadline, then you can manually do so from the Trash bin.
 
@@ -145,14 +145,14 @@ If you delete a dashboard by mistake, it can be recovered within 30 days of dele
 
 Wavefront keeps track of changes made to a dashboard, and displays those changes in the Dashboard History page. You can access a dashboard’s history from the All Dashboards page or directly from a dashboard.
 
--   From the All Dashboards page, find the desired dashboard in the list and select  ![/images/action_menu.png](action_menu.png) **&gt; Versions** .
+-   From the All Dashboards page, find the desired dashboard in the list and select  ![action_menu.png](images/action_menu.png) **&gt; Versions** .
 -   From a dashboard,  click the pencil icon <span class="fa-pencil fa"/> on the right side below the task bar, and select **Versions**.
 
 From the Past Versions page, each revision is listed along with the user who made the change, the day and time it was updated, and the change description.
 
  
 
-If an undesired change is made to a dashboard,  select ![/images/action_menu.png](action_menu.png) **&gt; Revert**  next to the desired version to go back that version. When you do this, you are asked to confirm that you wish to revert. After confirming, you are sent to the dashboard version you chose. If you go back to the Past Versions page, the change is reflected on the list. You can also choose to view a previous dashboard version before reverting by clicking the number associated with the dashboard change on the Past Versions page.  For a specific dashboard version, select  ![/images/action_menu.png](action_menu.png) **&gt; Clone**  to create a new dashboard based on the revision you chose.
+If an undesired change is made to a dashboard,  select ![action_menu.png](images/action_menu.png) **&gt; Revert**  next to the desired version to go back that version. When you do this, you are asked to confirm that you wish to revert. After confirming, you are sent to the dashboard version you chose. If you go back to the Past Versions page, the change is reflected on the list. You can also choose to view a previous dashboard version before reverting by clicking the number associated with the dashboard change on the Past Versions page.  For a specific dashboard version, select  ![action_menu.png](images/action_menu.png) **&gt; Clone**  to create a new dashboard based on the revision you chose.
 
  
 
@@ -189,7 +189,7 @@ To add a new chart to a dashboard, first navigate to the dashboard and put it in
 
 If you hover over an existing chart while a dashboard is in edit mode, three icons display in the bottom left corner of the chart box.
 
-[<img src="images/three+icons.PNG" alt="three icons.PNG" class="image-22 jive-image" width="34" height="81" />](three+icons.PNG)
+[<img src="images/three+icons.PNG" alt="three icons.PNG" class="image-22 jive-image" width="34" height="81" />](images/three+icons.PNG)
 
 The top icon allows you to delete the selected chart. The middle icon clones the selected chart. When you clone an existing chart, it is created in a separate row below the selected chart. The bottom icon allows you to edit the existing chart.
 
@@ -205,6 +205,6 @@ You can customize the placement of charts on a dashboard when a dashboard is in 
 
 ## Creating and Managing Dashboard Variables
 
-You can apply dashboard variables to an existing dashboard. For information on dashboard variables, see [Dashboard Variables](dashboard_variables.html).
+You can apply dashboard variables to an existing dashboard. For information on dashboard variables, see [Dashboard Variables](images/dashboard_variables.html).
 
 {% include links.html %}
