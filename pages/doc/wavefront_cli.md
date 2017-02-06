@@ -8,7 +8,7 @@ summary: This topic describes how use the Wavefront CLI.
 ---
 
 The Wavefront Command Line Interface (CLI) is a utility for installing and configuring the Wavefront Proxy, Telegraf (metric collector agent), and integrations. The CLI uses native package managers to install packages (i.e. yum, apt-get) and therefore should be run as sudo.
-S
+
 ## Requirements
 
 The Wavefront CLI is currently supported on Linux environments only and has been tested on the following Linux versions:
