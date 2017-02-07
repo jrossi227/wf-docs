@@ -6,7 +6,6 @@ In queries, Wavefront supports filtering metrics with **source** and **point** t
 
 To add tags to one or more entities:
 
-1. To add tags to one or more entities:
 1. Open an entity browser by selecting **Browse \> \<entity\>**, where **\<entity\>** is **Alerts**, **Dashboards**, **Events**, or **Sources**.
 1. Choose which entities to tag:
     - Check the checkboxes next to the entities and click the **+ Tag** button.
