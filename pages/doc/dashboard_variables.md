@@ -50,7 +50,7 @@ You use a dashboard variable by referencing its name in a ts() expression using 
 
 ## Simple Dashboard Variables
 
-A **simple dashboard variable** maps a single variable to a single value. When you create a dashboard variable, by default the Variable Type is set to **Simple**.
+A *simple dashboard variable* maps a single variable to a single value. When you create a dashboard variable, by default the Variable Type is set to **Simple**.
 
 Enter a variable name (case sensitive) and label. We suggest keeping the variable name short. For simple dashboard variables, enter the string of text that you'd like to replace the dashboard variable with in a ts() query when it's executed. Click Accept.
 
@@ -70,7 +70,7 @@ To temporarily change the text for a simple dashboard variable, access the Dashb
 
 ## List Dashboard Variables
 
-A **list dashboard variable** maps a variable label to a list of labels and values. They allow expert users to set a predefined list of a list of meaningful labels and values for other users to choose from. For example, let's assume that sources located in Availability Zone 1 are production and Availability Zone 2 are development. Instead of requiring a user to change the text from "tag=az-1" to "tag=az-2", you can set the labels to "Production" and "Development". This allows users to view the data they are interested in without necessarily needing to know the underlying information, such as source or metric names.
+A *list dashboard variable* maps a variable label to a list of labels and values. They allow expert users to set a predefined list of a list of meaningful labels and values for other users to choose from. For example, let's assume that sources located in Availability Zone 1 are production and Availability Zone 2 are development. Instead of requiring a user to change the text from "tag=az-1" to "tag=az-2", you can set the labels to "Production" and "Development". This allows users to view the data they are interested in without necessarily needing to know the underlying information, such as source or metric names.
 
 To create a list dashboard variable, select **Variable Type &gt; List**:
 
@@ -92,7 +92,7 @@ In the dashboard, selecting **Production** replaces **${var1}** in a ts() query 
 
 ## Dynamic Dashboard Variables
 
-A **dynamic dashboard variable** defines a variable whose set of values are dynamically determined by a query. Dynamic dashboard variables allow you to specify only a single metric name, source, source tag, or point tag at a time. You should use simple or list dashboard variables if you want to use wildcards to return more than 1 metric name, source, source tag, or point tag.
+A *dynamic dashboard variable* defines a variable whose set of values are dynamically determined by a query. Dynamic dashboard variables allow you to specify only a single metric name, source, source tag, or point tag at a time. You should use simple or list dashboard variables if you want to use wildcards to return more than 1 metric name, source, source tag, or point tag.
 
 To create a dynamic variable, select **Variable Type &gt; Dynamic**. A Field drop-down list and Query field displays.
 

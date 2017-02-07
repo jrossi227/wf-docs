@@ -1,4 +1,4 @@
-A tag is custom metadata that provides application-specific meaning to metrics and Wavefront entities such as alerts, dashboards, events, and sources. Tags group together metrics and entities according to categories you define.
+A *tag* is custom metadata that provides application-specific meaning to metrics and Wavefront entities such as alerts, dashboards, events, and sources. Tags group together metrics and entities according to categories you define.
 
 The primary use of tags is to limit the number metrics and entities you are querying or working with at once. Limiting the number of metrics reduces query time. Limiting the number of entities reduces information overload.
 
@@ -13,7 +13,7 @@ To add tags to one or more entities:
     - Click **+tag** below an entity.
 1. In the Add Tag dialog:
     - Optionally type a tag name to filter the list of tags. Click the tag.
-    - Click the Create Tag button at the bottom:
+    - Click the **Create Tag** button at the bottom:
     1. Type a tag name. Tag names are case sensitive. For example, the tags **MyApp** and **myapp** are stored as distinct tags.
     1. Click **Add**.
 

@@ -107,30 +107,17 @@ When your dashboard is in edit mode, you can resize individual chart rows on you
 
 Resizing a chart row affects every chart located in that chart row.
 
- 
-
 ### JSON Editing
-
-
-
 
 All of the changes described above can also be done through the JSON editor. In order to access the JSON editor, click **Edit JSON** next to the **Save** button on the task bar. This link is only displayed when your dashboard is in edit mode. Only use this option if you have a good understanding of JSON.
 
- 
-
 When editing a dashboard, you may make several changes at a time. If you wish to remove a single change, but not the changes made before it, then you can click the revert icon ![revert.png](images/revert.png)near the **Save** button on the task bar. The revert icon removes changes starting with the most recent and working its way backwards. You can only remove changes this way in the current edit mode session.
-
- 
 
 ## Managing Dashboards
 
-
 In addition to the abilities listed above, Dashboard Management permission also enables you to delete dashboards, revert dashboards to a previous version, and manage and apply tags.
 
- 
-
 ### Deleting Dashboards
-
 
 Only users with Dashboard Management permission have the ability to delete a dashboard from Wavefront. This can be done from the All Dashboards page or the specific dashboard page you'd like to remove.
 
@@ -150,18 +137,11 @@ Wavefront keeps track of changes made to a dashboard, and displays those changes
 
 From the Past Versions page, each revision is listed along with the user who made the change, the day and time it was updated, and the change description.
 
- 
-
 If an undesired change is made to a dashboard,  select ![action_menu.png](images/action_menu.png) **&gt; Revert**  next to the desired version to go back that version. When you do this, you are asked to confirm that you wish to revert. After confirming, you are sent to the dashboard version you chose. If you go back to the Past Versions page, the change is reflected on the list. You can also choose to view a previous dashboard version before reverting by clicking the number associated with the dashboard change on the Past Versions page.  For a specific dashboard version, select  ![action_menu.png](images/action_menu.png) **&gt; Clone**  to create a new dashboard based on the revision you chose.
-
- 
 
 ### Managing Tags
 
-
 Tags group together dashboards according to categories you define. By team, datacenter, or geo-location are just a few examples of how tags can be used. Tags display as blue tags in the filter bar and below each dashboard in the All Dashboards page. 
-
- 
 
 To add tags to dashboards:
 
@@ -180,7 +160,6 @@ To add a new chart to a dashboard, first navigate to the dashboard and put it in
 
 1.  Find the section you want to place the chart in. Click <span class="fa-plus-circle fa"/>  Add New Chart. An Add Chart box displays.
 2.  Enter a ts() expression into the source field. For information on ts() expressions, see <a href="https://community.wavefront.com/docs/DOC-1019" class="jive-link-wiki-small">Getting Started with the ts() Query Language</a> and <a href="https://community.wavefront.com/docs/DOC-1011" class="jive-link-wiki-small">Time Series Language - Quick Reference</a>.
-
 3.  <span>In the Chart section, customize your chart. See <a href="https://community.wavefront.com/docs/DOC-1158" class="jive-link-wiki-small">Wavefront Chart Types</a> to learn more about customization options.
 4.  Click **Accept**. The new chart displays in the section you selected.
 5.  Save the dashboard.
