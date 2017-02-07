@@ -20,6 +20,11 @@ entries:
       output: web
       type: homepage
 
+    - title: Introduction to Tags
+      url: /tags.html
+      output: web
+      type: homepage
+
   - title: Release Notes
     output: web
     folderitems:

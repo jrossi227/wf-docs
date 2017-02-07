@@ -458,7 +458,6 @@ img.screenshotSmall {
     max-width: 300px;
 }
 
-
 dl dt p {
     margin-left:20px;
 }
@@ -806,6 +805,7 @@ dd {margin-left:20px;}
     font-weight: bold;
 }
 
+
 .note code, .alert code, .warning code, div#toc code, h2 code, h3 code, h4 code {
     color: inherit;
     padding: 0px;
@@ -912,6 +912,11 @@ span.soft {
     height: auto;
     max-width: 100%;
     max-height: 100%;
+}
+
+img[src*='#inline']{
+    margin-bottom: 6px;
+    margin: 0px;
 }
 
 .videoThumbs img {
