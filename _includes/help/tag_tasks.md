@@ -2,7 +2,7 @@
 
 To add tags to one or more entities:
 
-1. Open an entity browser by selecting **Browse \> \<entity\>**, where **\<entity\>** is **Alerts**, **Dashboards**, **Events**, or **Sources**.
+1. Open an entity browser by selecting **Browse &gt; &lt;entity&gt;**, where **&lt;entity&gt;** is **Alerts**, **Dashboards**, **Events**, or **Sources**.
 1. Choose which entities to tag. Do one of:
     - Check the checkboxes next to the entities and click the **+ Tag** button.
     - Click **+tag** below an entity.
