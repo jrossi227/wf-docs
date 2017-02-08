@@ -42,7 +42,7 @@ Example: <span style="color: #2873ee">tag=app</span>.</td>
 <tr>
 <td><span style="color: #909090;">timeWindow</span></td>
 <td><span style="color: #303030">A window of time <span style="color: #000000">specified in seconds, minutes, hours, days or weeks (</span><span style="color: #909090">1s</span><span style="color: #000000">, </span><span style="color: #909090">1m</span><span style="color: #000000">, </span><span style="color: #909090">1h</span><span style="color: #000000">, </span><span style="color: #909090">1d</span><span style="color: #000000">, </span><span style="color: #909090">1w</span><span style="color: #000000">). If the unit is not specified, the default is minutes.</span></span>
-<span style="color: #909090"><span style="color: #303030;">Example:</span>1h<span style="color: #303030;">.</span></span></td>
+<span style="color: #909090"><span style="color: #303030;">Example: </span>1h<span style="color: #303030;">.</span></span></td>
 </tr>
 </tbody>
 </table>
