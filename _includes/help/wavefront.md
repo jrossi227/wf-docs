@@ -4,4 +4,4 @@ The major components of Wavefront include the *Wavefront SaaS application*, whic
 
 ![Wavefront architecture](images/wavefront_architecture.png)
 
-It's possible to have several data centers from different locations feeding data into Wavefront versus traditional on premise solutions which can only provide a view of one location at a time.  At a high level, the setup process typically consists of configuring collectors to send data to one or more Wavefront Proxies and then configuring the Wavefront Proxies to forward this data to the Wavefront application. The following sections describe these components in more detail.
+It's possible to have several data centers from different locations feeding data into Wavefront versus traditional on premise solutions which can only provide a view of one location at a time.  At a high level, the setup process typically consists of configuring collectors to send data to one or more Wavefront Proxies and then configuring the Wavefront Proxies to forward this data to the Wavefront application.

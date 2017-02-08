@@ -7,7 +7,7 @@ summary: This is an introduction to the Wavefront architecture.
 ---
 
 {% include help/wavefront.md %}
-
+The following sections describe these components in more detail.
 
 ## Wavefront Application
 
